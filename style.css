@@ -1,0 +1,156 @@
+*{
+    padding: 0px;
+ margin:0px;
+}
+.head1{
+    background-color: #4385C1;
+    
+
+}
+.bottom{
+
+    background-color: #053867;
+    height: 30px;
+    padding: 15px
+}
+.navbar{
+    display: inline;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.upperlist{
+    list-style: none;
+    float:left;
+    padding: 10px;
+}
+h1,p{
+color: white;
+text-align: center;
+}
+#BOSTON{
+    color:#92C0EA;
+    text-align: center;
+}
+.btn{
+    background-color:#4385C1;
+    border-color:white;
+    color:white;
+    padding:5px;
+    margin:15px;
+    float: right;
+}
+.lowerlist{
+    color:#4385C1;
+    padding: 40px;
+    margin:10px;
+    display: inline
+}
+.sec1{
+    background-color:green;
+    height:100px;
+    color: white;
+    text-align: left
+}
+#sec1h{
+    text-align: start;
+    color:white;
+}
+#sec1p1{
+    text-align: center;
+    color:white;
+}
+div.sec2{
+    height: 400px;
+    width: 400px;
+    float:left;
+    border: 5px black;
+    margin: 20px
+}
+div#first{
+    background-color:gainsboro;
+}
+div#second{
+    background-color: gainsboro;
+}
+div#third{
+    background-color: gainsboro;
+}
+div#fourth{
+    background-color:purple
+}
+div#fifth{
+    background-color: #4385C1;}
+div.sec3{
+    background-color:white;
+    height: 400px;
+    width: 400px;
+    float:left;
+    border: 5px black;
+    margin: 20px;
+    display: flex;
+    flex-direction:column;
+    
+}
+.cal1{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    margin: 20px;
+    background-color:white;
+}
+.btn1{
+    background-color:white;
+    border-color:#4385C1;
+    color:#4385C1;
+    padding:10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin:100px;
+    margin-bottom: 30px;
+
+}
+#JAN{
+    color: green;
+    text-align: center;
+    padding: 5px;
+    font-size: 30px;
+}
+#element{
+    font-style: bold;
+    font-size: 45px
+}
+#em{
+    color:#4385C1;
+    font-size: 47px;
+}
+#black{
+    color:black;
+    font-size:20px;
+}
+#Idbtn1{
+    color:#4385C1;
+}
+.footer{
+    background-color: #34383c; 
+    padding: 50px;
+    
+}
+h3{
+    color: white;
+}
+.footerul{
+    list-style-type: none;
+     color: #818580;
+}
+div.sec4{
+    display: inline;
+    border: 5px black;
+    margin: 20px;
+    float: left;
+    
+}
+.footerdiv{
+    color: white;
+}
