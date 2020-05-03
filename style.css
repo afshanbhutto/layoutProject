@@ -132,25 +132,29 @@ div.sec3{
 #Idbtn1{
     color:#4385C1;
 }
-.footer{
-    background-color: #34383c; 
-    padding: 50px;
-    
+footer {
+    background-color: rgb(62, 62, 62);
+    padding-top: 60px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    padding-right: 80px;
+    display: block;
+    list-style: none;
 }
 h3{
     color: white;
+    font-size: 30px
 }
-.footerul{
-    list-style-type: none;
-     color: #818580;
+.footerlist{
+    list-style: none;
+    color: gainsboro;
+    padding: 5px;
 }
-div.sec4{
-    display: inline;
-    border: 5px black;
-    margin: 20px;
-    float: left;
-    
-}
-.footerdiv{
+.footerlist1{
     color: white;
+    list-style: none;
 }
+.footer-end{
+    color: white;
+   }
+
