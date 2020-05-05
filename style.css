@@ -1,7 +1,151 @@
-*{
-    padding: 0px;
- margin:0px;
+*
+{
+    margin:0 auto;
 }
+
+.one
+{
+    color:blue;
+    background-color: white;
+   
+}
+.programs
+{
+background-color: #e7ecf0;
+display: inline-block;
+text-align: center;
+width:300px;
+height:250px;
+margin:1em 1em 1em 1em;
+padding: 0em 3em 0em 3em;
+}
+
+.programs>h1
+{
+color:blue;
+}
+.programs>p
+{
+color:black;
+}
+
+.move
+{
+    background-color:#92c21a;
+    color: white;
+}
+.purp
+{
+background-color: #620e6e;
+color: white;
+width:300px;
+height:250px;
+text-align: center;
+margin:1em 1em 1em 1em;
+padding: 0em 3em 0em 3em;
+
+display: inline-block;
+}
+.bl
+{
+color:white;
+background-color:#4385c1 ;
+width:300px;
+height:250px;
+text-align: center;
+display: inline-block;
+margin: 1em 1em 1em 1em;
+padding: 0em 3em 0em 3em;
+
+}
+
+footer{
+    color:#81858a;
+    background-color: #34383c;
+}
+.headings
+{
+  color:white;  
+}
+.bruh
+{
+    color:#8ab6df;
+}
+
+.dis{
+    display: inline;
+}
+.head{
+    vertical-align: 25px;
+}
+.months
+{
+    color: green;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 90px;
+    height: 80px;
+    display: inline-block;
+    text-align: center;
+    margin: 1em 2em 1em 2em;
+}
+.oneo
+{
+    display: inline-block;
+    vertical-align: 10px;
+}
+.two
+{
+    display: inline-block;
+    vertical-align: 10px;
+
+}
+
+.months1
+{
+    color: green;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 90px;
+    height: 80px;
+    display: inline-block;
+    text-align: center;
+    margin: 1em 2em 1em 2em;
+}
+.fone
+{
+    display: inline-block;
+    margin:1em 0em 1em 0em;
+    padding:1em 1em 1em 1em;
+}
+.ftwo
+{
+    display: inline-block;
+}
+
+ #out img{
+    width: 100%;
+} 
+#out
+{
+    margin-top: 0px;
+    margin-bottom: 20em;
+}
+
+#text
+{
+    width:100%;
+    position: relative;
+    margin-top: -25%;
+}
+#text h1, #text h2, #text hr
+{
+    text-align: center;
+    color:white;
+    font-size: 2.5em;
+} 
 .head1{
     background-color: #4385C1;
     
@@ -35,11 +179,14 @@ text-align: center;
 }
 .btn{
     background-color:#4385C1;
-    border-color:white;
+    border: 1px solid white;
     color:white;
-    padding:5px;
+    padding:5px 10px 5px 10px;
     margin:15px;
     float: right;
+    border-radius:5px;
+    
+
 }
 .lowerlist{
     color:#4385C1;
@@ -47,114 +194,22 @@ text-align: center;
     margin:10px;
     display: inline
 }
-.sec1{
-    background-color:green;
-    height:100px;
-    color: white;
-    text-align: left
-}
-#sec1h{
-    text-align: start;
-    color:white;
-}
-#sec1p1{
-    text-align: center;
-    color:white;
-}
-div.sec2{
-    height: 400px;
-    width: 400px;
-    float:left;
-    border: 5px black;
-    margin: 20px
-}
-div#first{
-    background-color:gainsboro;
-}
-div#second{
-    background-color: gainsboro;
-}
-div#third{
-    background-color: gainsboro;
-}
-div#fourth{
-    background-color:purple
-}
-div#fifth{
-    background-color: #4385C1;}
-div.sec3{
-    background-color:white;
-    height: 400px;
-    width: 400px;
-    float:left;
-    border: 5px black;
-    margin: 20px;
-    display: flex;
-    flex-direction:column;
-    
-}
-.cal1{
-    height: 100px;
-    width: 100px;
-    border: 1px solid black;
-    margin: 20px;
-    background-color:white;
-}
 .btn1{
-    background-color:white;
-    border-color:#4385C1;
-    color:#4385C1;
-    padding:10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin:100px;
-    margin-bottom: 30px;
-
+  padding:1em 5em 1em 5em;
+   border-radius: 7px;  
+   background-color: white;
+   border: 2px solid blue;
+   color: blue;
+   margin: 20px 10px 30px 30px
 }
-#JAN{
-    color: green;
-    text-align: center;
-    padding: 5px;
-    font-size: 30px;
+.btn2{
+    padding:1em 7em 1em 7em;
+    border-radius: 7px;  
+    border: 2px solid blue;
+    background-color: white;
+    color: blue;
+    margin:20px 10px 20px 30px
 }
-#element{
-    font-style: bold;
-    font-size: 45px
-}
-#em{
-    color:#4385C1;
-    font-size: 47px;
-}
-#black{
-    color:black;
-    font-size:20px;
-}
-#Idbtn1{
-    color:#4385C1;
-}
-footer {
-    background-color: rgb(62, 62, 62);
-    padding-top: 60px;
-    padding-bottom: 50px;
-    padding-left: 80px;
-    padding-right: 80px;
-    display: block;
+.foot{
     list-style: none;
 }
-h3{
-    color: white;
-    font-size: 30px
-}
-.footerlist{
-    list-style: none;
-    color: gainsboro;
-    padding: 5px;
-}
-.footerlist1{
-    color: white;
-    list-style: none;
-}
-.footer-end{
-    color: white;
-   }
-
